@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="860" viewBox="0 0 1400 860">
+    <rect width="1400" height="860" fill="#070a0f"/>
+    <rect x="24" y="24" width="1352" height="812" rx="30" fill="#0a1426" stroke="rgba(120,255,170,.18)"/>
+    <rect x="58" y="58" width="1284" height="152" rx="26" fill="#0b1220" stroke="rgba(120,255,170,.12)"/>
+    <text x="94" y="96" fill="#37ff8b" font-size="13" font-weight="700" font-family="Consolas, monospace">
+<tspan x="94" dy="0">PAYMENT LANE</tspan>
+</text>
+    <text x="94" y="146" fill="#f5f7ff" font-size="34" font-weight="700" font-family="Georgia, serif">
+<tspan x="94" dy="0">Each lane keeps owner, processor,</tspan>
+<tspan x="94" dy="42">batch state, and next action</tspan>
+<tspan x="94" dy="42">visible.</tspan>
+</text>
+    <text x="94" y="194" fill="#b8c6db" font-size="18" font-weight="400" font-family="Inter,Segoe UI,Arial">
+<tspan x="94" dy="0">Cards, ACH, marketplace payouts, and treasury-close work stay separated cleanly so exception routing</tspan>
+<tspan x="94" dy="22">does not collapse into a single queue.</tspan>
+</text>
+    
+    
+    <rect x="58" y="238" width="620" height="250" rx="22" fill="#0b1220" stroke="rgba(120,255,170,.18)" />
+    <text x="84" y="272" fill="#19c7ff" font-size="11" font-weight="700" font-family="Consolas, monospace">
+<tspan x="84" dy="0">CARDS LANE</tspan>
+</text>
+    <text x="84" y="322" fill="#f5f7ff" font-size="28" font-weight="700" font-family="Georgia, serif">
+<tspan x="84" dy="0">Visa and Mastercard settlement</tspan>
+<tspan x="84" dy="35">batches</tspan>
+</text>
+    <text x="84" y="374" fill="#b8c6db" font-size="16" font-weight="400" font-family="Inter,Segoe UI,Arial">
+<tspan x="84" dy="0">Processor fee drift, refund timing mismatches, and</tspan>
+<tspan x="84" dy="20">close evidence gaps stay tied to the settlement</tspan>
+<tspan x="84" dy="20">lane that owns them.</tspan>
+</text>
+    
+    
+    <rect x="708" y="238" width="634" height="250" rx="22" fill="#0b1220" stroke="rgba(120,255,170,.18)" />
+    <text x="734" y="272" fill="#ffcc66" font-size="11" font-weight="700" font-family="Consolas, monospace">
+<tspan x="734" dy="0">ACH LANE</tspan>
+</text>
+    <text x="734" y="322" fill="#f5f7ff" font-size="28" font-weight="700" font-family="Georgia, serif">
+<tspan x="734" dy="0">Vendor and payroll payout</tspan>
+<tspan x="734" dy="35">reconciliation</tspan>
+</text>
+    <text x="734" y="374" fill="#b8c6db" font-size="16" font-weight="400" font-family="Inter,Segoe UI,Arial">
+<tspan x="734" dy="0">Returned payouts, stale replay decisions, and</tspan>
+<tspan x="734" dy="20">payout ledger breaks stay visible before close-</tspan>
+<tspan x="734" dy="20">safe certification.</tspan>
+</text>
+    
+    
+    <rect x="58" y="520" width="620" height="256" rx="22" fill="#0b1220" stroke="rgba(120,255,170,.18)" />
+    <text x="84" y="554" fill="#b88cff" font-size="11" font-weight="700" font-family="Consolas, monospace">
+<tspan x="84" dy="0">MARKETPLACE LANE</tspan>
+</text>
+    <text x="84" y="604" fill="#f5f7ff" font-size="28" font-weight="700" font-family="Georgia, serif">
+<tspan x="84" dy="0">Merchant clearing and transfer</tspan>
+<tspan x="84" dy="35">balance posture</tspan>
+</text>
+    <text x="84" y="656" fill="#b8c6db" font-size="16" font-weight="400" font-family="Inter,Segoe UI,Arial">
+<tspan x="84" dy="0">Reserve releases, split-fee exceptions, and cross-</tspan>
+<tspan x="84" dy="20">ledger mismatches stay readable at operator depth.</tspan>
+</text>
+    
+    
+    <rect x="708" y="520" width="634" height="256" rx="22" fill="#0b1220" stroke="rgba(120,255,170,.18)" />
+    <text x="734" y="554" fill="#37ff8b" font-size="11" font-weight="700" font-family="Consolas, monospace">
+<tspan x="734" dy="0">TREASURY LANE</tspan>
+</text>
+    <text x="734" y="604" fill="#f5f7ff" font-size="28" font-weight="700" font-family="Georgia, serif">
+<tspan x="734" dy="0">Month-end packet and signoff</tspan>
+<tspan x="734" dy="35">readiness</tspan>
+</text>
+    <text x="734" y="656" fill="#b8c6db" font-size="16" font-weight="400" font-family="Inter,Segoe UI,Arial">
+<tspan x="734" dy="0">Finance, revops, and accounting reviewers can see</tspan>
+<tspan x="734" dy="20">whether the packet is truly signoff-safe.</tspan>
+</text>
+    
+    
+    </svg>

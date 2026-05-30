@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="860" viewBox="0 0 1400 860">
+    <rect width="1400" height="860" fill="#070a0f"/>
+    <rect x="24" y="24" width="1352" height="812" rx="30" fill="#0a1426" stroke="rgba(120,255,170,.18)"/>
+    <rect x="58" y="58" width="1284" height="152" rx="26" fill="#0b1220" stroke="rgba(120,255,170,.12)"/>
+    <text x="94" y="96" fill="#37ff8b" font-size="13" font-weight="700" font-family="Consolas, monospace">
+<tspan x="94" dy="0">SETTLEMENT POSTURE</tspan>
+</text>
+    <text x="94" y="146" fill="#f5f7ff" font-size="34" font-weight="700" font-family="Georgia, serif">
+<tspan x="94" dy="0">Packet readiness, unresolved</tspan>
+<tspan x="94" dy="42">exceptions, and the next close</tspan>
+<tspan x="94" dy="42">window stay readable for finance</tspan>
+<tspan x="94" dy="42">operators.</tspan>
+</text>
+    <text x="94" y="194" fill="#b8c6db" font-size="18" font-weight="400" font-family="Inter,Segoe UI,Arial">
+<tspan x="94" dy="0">The board keeps month-end packet posture explicit instead of hiding it behind aggregate success</tspan>
+<tspan x="94" dy="22">rates.</tspan>
+</text>
+    
+    
+    <rect x="58" y="238" width="402" height="244" rx="22" fill="#0b1220" stroke="rgba(120,255,170,.18)" />
+    <text x="84" y="272" fill="#ff5c7a" font-size="11" font-weight="700" font-family="Consolas, monospace">
+<tspan x="84" dy="0">BATCH PY-1042</tspan>
+</text>
+    <text x="84" y="322" fill="#f5f7ff" font-size="28" font-weight="700" font-family="Georgia, serif">
+<tspan x="84" dy="0">Vendor ACH replay packet</tspan>
+</text>
+    <text x="84" y="374" fill="#b8c6db" font-size="16" font-weight="400" font-family="Inter,Segoe UI,Arial">
+<tspan x="84" dy="0">61 percent complete. Returned payouts are still</tspan>
+<tspan x="84" dy="20">unmatched and owner signoff remains blocked.</tspan>
+</text>
+    
+    
+    <rect x="498" y="238" width="402" height="244" rx="22" fill="#0b1220" stroke="rgba(120,255,170,.18)" />
+    <text x="524" y="272" fill="#ffcc66" font-size="11" font-weight="700" font-family="Consolas, monospace">
+<tspan x="524" dy="0">BATCH CR-882</tspan>
+</text>
+    <text x="524" y="322" fill="#f5f7ff" font-size="28" font-weight="700" font-family="Georgia, serif">
+<tspan x="524" dy="0">Card fee-drift packet</tspan>
+</text>
+    <text x="524" y="374" fill="#b8c6db" font-size="16" font-weight="400" font-family="Inter,Segoe UI,Arial">
+<tspan x="524" dy="0">74 percent complete. Processor fee deltas are</tspan>
+<tspan x="524" dy="20">narrowed, but export evidence is still incomplete.</tspan>
+</text>
+    
+    
+    <rect x="938" y="238" width="404" height="244" rx="22" fill="#0b1220" stroke="rgba(120,255,170,.18)" />
+    <text x="964" y="272" fill="#37ff8b" font-size="11" font-weight="700" font-family="Consolas, monospace">
+<tspan x="964" dy="0">BATCH TR-330</tspan>
+</text>
+    <text x="964" y="322" fill="#f5f7ff" font-size="28" font-weight="700" font-family="Georgia, serif">
+<tspan x="964" dy="0">Treasury close packet</tspan>
+</text>
+    <text x="964" y="374" fill="#b8c6db" font-size="16" font-weight="400" font-family="Inter,Segoe UI,Arial">
+<tspan x="964" dy="0">84 percent complete. Final finance signoff can</tspan>
+<tspan x="964" dy="20">clear once reviewer timestamps land.</tspan>
+</text>
+    
+    
+    <rect x="58" y="514" width="1284" height="262" rx="22" fill="#0b1220" stroke="rgba(120,255,170,.18)" />
+    <text x="84" y="548" fill="#19c7ff" font-size="11" font-weight="700" font-family="Consolas, monospace">
+<tspan x="84" dy="0">WHY THIS MONETIZES CLEANLY</tspan>
+</text>
+    <text x="84" y="598" fill="#f5f7ff" font-size="28" font-weight="700" font-family="Georgia, serif">
+<tspan x="84" dy="0">Hosted preview planned, paid</tspan>
+<tspan x="84" dy="35">template pack later, embedded</tspan>
+<tspan x="84" dy="35">by engagement.</tspan>
+</text>
+    <text x="84" y="650" fill="#b8c6db" font-size="16" font-weight="400" font-family="Inter,Segoe UI,Arial">
+<tspan x="84" dy="0">This is a strong FinTech operator wedge because it</tspan>
+<tspan x="84" dy="20">lives where teams actually feel pain: payout</tspan>
+<tspan x="84" dy="20">exceptions, fee mismatches, unresolved close</tspan>
+<tspan x="84" dy="20">packets, and settlement-safe signoff before</tspan>
+<tspan x="84" dy="20">finance certifies the cycle.</tspan>
+</text>
+    
+    
+    </svg>
