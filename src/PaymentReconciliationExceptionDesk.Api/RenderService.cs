@@ -29,6 +29,25 @@ public static class RenderService
             <div class="src"><div class="src-name">monetization path</div><div class="src-tit">Hosted preview planned · Embedded by engagement</div><p>The free surface shows the operator model; the commercial path is an embedded reconciliation module for finance and settlement workflows.</p></div>
           </div>
         </section>
+        <section class="section">
+          <div class="sh"><h2>Board questions this answers</h2><div class="note">exposure · leakage · control investment</div></div>
+          <div class="stack">
+            <div class="src"><div class="src-name">exposure</div><div class="src-tit">Which payment batches are unsafe to certify?</div><p>Gateway fee deltas, ACH returns, ledger breaks, cutoff timing, and final signoff posture stay visible before finance closes on an incomplete packet.</p></div>
+            <div class="src"><div class="src-name">savings</div><div class="src-tit">Where is margin leaking through preventable reconciliation work?</div><p>The desk makes fee drift, return queues, duplicate research, and stale owner evidence visible so payment teams can stop rebuilding the same settlement explanation.</p></div>
+            <div class="src"><div class="src-name">investment</div><div class="src-tit">Which settlement control should be automated first?</div><p>Blocking exceptions show whether processor exports, ACH return triage, ledger matching, cutoff replay, or close signoff needs the next systems pass.</p></div>
+          </div>
+        </section>
+        <section class="section">
+          <div class="sh"><h2>Evidence model</h2><div class="note">signal · proof · decision</div></div>
+          <table class="ttbl">
+            <thead><tr><th>Signal</th><th>Owner</th><th>Required proof</th><th>Decision supported</th></tr></thead>
+            <tbody>
+              <tr><td><b>Gateway fee delta</b></td><td>Payment Operations</td><td>Processor export, fee schedule, variance reason, owner memo</td><td>Approve settlement, dispute fee, or hold close</td></tr>
+              <tr><td><b>ACH return pressure</b></td><td>Treasury Operations</td><td>Return code, payout exposure, retry posture, merchant notice</td><td>Retry, recover, reserve, or escalate account risk</td></tr>
+              <tr><td><b>Ledger close packet</b></td><td>Finance Controls</td><td>Ledger match, cutoff replay, exception owner, final signoff</td><td>Certify close or require reconciliation repair</td></tr>
+            </tbody>
+          </table>
+        </section>
         """
     );
 
