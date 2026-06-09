@@ -11,6 +11,31 @@ This repo is the public proof surface for that pattern:
 - `Hosted preview planned` for a browser-based reconciliation exception desk
 - `Embedded by engagement` for teams that need the routing model inside payments, treasury, or revenue operations workflows
 
+## Product depth
+
+Payment Reconciliation Exception Desk turns settlement noise into a close-safe decision packet. It gives finance, payment operations, treasury, revenue operations, and executive stakeholders one shared view of reconciliation evidence before gateway deltas, returned payouts, ledger breaks, or stale signoff packets create margin leakage and month-end risk.
+
+The surface is designed for both non-technical and technical readers:
+
+- leaders see which payment batches are unsafe to certify, what is blocking close, and where margin leakage is forming
+- operators see the workflow from payment lane to exception queue to settlement posture
+- technical reviewers see the data contract behind the desk: batches, exceptions, settlement packets, owner evidence, cutoff replay, and close posture
+- GTM readers get a clear value story around faster close, less exception rework, cleaner settlement confidence, and fewer finance surprises
+
+## What these repos have in common
+
+This repo follows the Kinetic Gain control-plane pattern: convert a fragmented operating lane into a board-readable decision surface with risk, owner, proof, and next action in the same artifact.
+
+- The public demo uses representative synthetic data, not live bank, processor, customer, merchant, credential, or production ledger data.
+- The page connects business impact with implementation proof so it does not read like a generic landing page.
+- The API, static export, screenshots, tests, docs, and custom-domain rail all ship from the same repo.
+
+## Operating workflow
+
+1. Model the payment estate: represent batches, exceptions, owners, returns, gateway deltas, and settlement packets with synthetic data.
+2. Score the close posture: separate current batches, blocking exceptions, settlement risks, and close-risk evidence.
+3. Route the decision: publish an operator surface showing what to certify, dispute, retry, reserve, repair, or escalate.
+
 ## What it includes
 
 - ASP.NET Core minimal API in C#

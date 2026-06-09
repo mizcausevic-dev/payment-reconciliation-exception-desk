@@ -29,6 +29,7 @@ public static class RenderService
             <div class="src"><div class="src-name">monetization path</div><div class="src-tit">Hosted preview planned · Embedded by engagement</div><p>The free surface shows the operator model; the commercial path is an embedded reconciliation module for finance and settlement workflows.</p></div>
           </div>
         </section>
+        {{ProductDepthSection()}}
         <section class="section">
           <div class="sh"><h2>Board questions this answers</h2><div class="note">exposure · leakage · control investment</div></div>
           <div class="stack">
@@ -50,6 +51,42 @@ public static class RenderService
         </section>
         """
     );
+
+    private static string ProductDepthSection() =>
+        """
+        <section class="section">
+          <div class="sh"><h2>Product depth</h2><div class="note">what this actually does</div></div>
+          <div class="depth-grid">
+            <div class="depth-card">
+              <div class="src-name">executive intelligence surface</div>
+              <h3>Payment Reconciliation Exception Desk turns settlement noise into a close-safe decision packet.</h3>
+              <p>It gives finance, payment operations, treasury, revenue operations, and executive stakeholders one shared view of reconciliation evidence before gateway deltas, returned payouts, ledger breaks, or stale signoff packets create margin leakage and month-end risk.</p>
+              <ul>
+                <li>Non-technical leaders see which payment batches are unsafe to certify and why.</li>
+                <li>Technical and operations teams see the data contract: batches, exceptions, settlement packets, owner evidence, cutoff replay, and close posture.</li>
+                <li>go-to-market teams can explain a clear product story: faster close, less exception rework, cleaner settlement confidence, and fewer finance surprises.</li>
+              </ul>
+            </div>
+            <div class="depth-card">
+              <div class="src-name">operating workflow</div>
+              <h3>From processor exports to one reconciliation control lane.</h3>
+              <div class="workflow">
+                <div class="step"><b>1. Model the payment estate.</b><br>Represent batches, exceptions, owners, returns, gateway deltas, and settlement packets with synthetic data.</div>
+                <div class="step"><b>2. Score the close posture.</b><br>Separate current batches, blocking exceptions, settlement risks, and close-risk evidence.</div>
+                <div class="step"><b>3. Route the decision.</b><br>Publish an operator surface that shows what to certify, dispute, retry, reserve, repair, or escalate.</div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="section">
+          <div class="sh"><h2>What these repos have in common</h2><div class="note">control plane pattern</div></div>
+          <div class="stack">
+            <div class="src"><div class="src-name">same product spine</div><div class="src-tit">Risk, owner, proof, and next action.</div><p>Each Kinetic Gain surface turns a messy operating lane into a simple decision model leaders can inspect without opening the source system.</p></div>
+            <div class="src"><div class="src-name">safe evidence packaging</div><div class="src-tit">Representative data, no live secrets.</div><p>The repo proves the workflow with synthetic sample data and static outputs, so the public surface is useful without exposing bank, processor, customer, merchant, credential, or production ledger data.</p></div>
+            <div class="src"><div class="src-name">buyer-readable GTM</div><div class="src-tit">Business value and technical proof stay together.</div><p>The page frames operational pain, the evidence model, the decision workflow, and the commercial story in one scannable product artifact.</p></div>
+          </div>
+        </section>
+        """;
 
     public static string PaymentLane() => Layout(
         "Payment Reconciliation Exception Desk — Payment Lane",
@@ -227,6 +264,7 @@ public static class RenderService
             .section{margin-top:34px}.sh{display:flex;justify-content:space-between;gap:14px;padding-bottom:10px;border-bottom:1px solid var(--line2);margin-bottom:14px}.sh h2{margin:0;font-size:24px;font-weight:600}.sh .note{font-family:var(--mono);font-size:11px;color:var(--muted2);letter-spacing:.16em;text-transform:uppercase}
             .kpis{display:grid;grid-template-columns:repeat(6,1fr);gap:12px}@media (max-width:1100px){.kpis{grid-template-columns:repeat(3,1fr)}}@media (max-width:640px){.kpis{grid-template-columns:repeat(2,1fr)}} .kpi{border-radius:14px;padding:14px 14px 12px}.kpi .v{font-size:26px;font-weight:600}.kpi .lbl{font-size:10px;letter-spacing:.18em;text-transform:uppercase;color:var(--muted);margin-top:6px}.cyan .v{color:var(--bert2)} .green .v{color:var(--bert)} .plum .v{color:#b88cff} .amber .v,.yellow{color:var(--warn)} .red .v,.red{color:var(--bad)}
             .stack{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}@media (max-width:1100px){.stack{grid-template-columns:repeat(2,1fr)}}@media (max-width:640px){.stack{grid-template-columns:1fr}} .src{border-radius:16px;padding:16px}.src-name{font-family:var(--mono);font-size:11px;color:var(--bert);letter-spacing:.2em;text-transform:uppercase}.src-tit{margin:8px 0 6px;font-size:17px;font-weight:600}
+            .depth-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:14px}@media (max-width:900px){.depth-grid{grid-template-columns:1fr}}.depth-card{border:1px solid rgba(25,199,255,.2);border-radius:18px;padding:18px;background:linear-gradient(135deg, rgba(11,18,32,.90), rgba(12,24,42,.68));box-shadow:var(--shadow)}.depth-card h3{margin:8px 0 8px;font-size:24px}.depth-card p,.depth-card li,.step{color:var(--muted);line-height:1.6}.depth-card ul{margin:12px 0 0;padding-left:18px}.depth-card li::marker{color:var(--bert)}.workflow{display:grid;gap:10px;margin-top:12px}.step{border:1px solid var(--line2);border-radius:14px;padding:12px;background:rgba(6,10,18,.35)}.step b{color:var(--text)}
             .ttbl{width:100%;border-collapse:separate;border-spacing:0;border:1px solid var(--line);border-radius:14px;overflow:hidden}.ttbl th,.ttbl td{padding:13px 14px;text-align:left;font-size:13.5px;vertical-align:top}.ttbl thead th{font-family:var(--mono);font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--muted2);border-bottom:1px solid var(--line);background:rgba(11,18,32,.5)}.ttbl td,.ttbl td *{color:var(--muted)}.ttbl b{color:var(--text)}
             .board{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}@media (max-width:1000px){.board{grid-template-columns:1fr}} .pcard{border-radius:16px;padding:18px 20px;display:flex;flex-direction:column}.ptop{display:flex;justify-content:space-between;align-items:center;margin-bottom:8px}.pnum{font-family:var(--mono);font-size:22px;font-weight:600;color:var(--bert)}.ppri{font-size:10px;padding:5px 10px;border-radius:999px;border:1px solid var(--line);color:var(--bert);letter-spacing:.14em;background:rgba(55,255,139,.06)}.pcard h3{margin:6px 0 8px;font-size:19px}.check{list-style:none;padding:0;margin:0 0 14px}.check li{display:grid;grid-template-columns:18px 1fr;gap:10px;padding:6px 0;font-size:13.5px;color:var(--muted)}.check li:before{content:"";width:14px;height:14px;border:1px solid var(--line);border-radius:3px;background:rgba(6,10,18,.4);margin-top:3px}
             .st{font-size:10px;padding:4px 9px;border-radius:6px;letter-spacing:.1em;text-transform:uppercase;border:1px solid currentColor;display:inline-block}.st.green{color:var(--bert)}.st.yellow{color:var(--warn)}.st.red{color:var(--bad)}.st.info{color:var(--bert2)}
@@ -259,7 +297,7 @@ public static class RenderService
             {{{body}}}
             <div class="footer">
               <div>payment-reconciliation-exception-desk · synthetic sample data only</div>
-              <div>routes: / · /payment-lane · /exception-queue · /settlement-posture · /verification · /docs</div>
+              <div><a href="/docs">Docs</a> · <a href="/verification">Verification</a> · <a href="https://github.com/mizcausevic-dev/payment-reconciliation-exception-desk">Repo</a> · <a href="https://portfolio.kineticgain.com/">Portfolio</a> · <a href="https://suite.kineticgain.com/">Suite</a> · <a href="https://www.linkedin.com/in/miz-causevic/">LinkedIn</a> · <a href="https://kineticgain.com/">Kinetic Gain</a></div>
             </div>
           </div>
         </body>
